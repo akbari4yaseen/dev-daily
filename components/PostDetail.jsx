@@ -50,8 +50,7 @@ const PostDetail = ({ post }) => {
             key={index}
             src={obj.src}
             alt={obj.title}
-            // layout="responsive"
-            layout="fill"
+            layout="responsive"
             height={obj.height}
             width={obj.width}
           />
@@ -65,12 +64,12 @@ const PostDetail = ({ post }) => {
       <div className="bg-white shadow-lg rounded-lg pb-12 mb-8 lg:p-8">
         <div className="relative overflow-hidden shadow-md mb-6">
           <Image
-            className="h-full w-full object-top rounded-t-lg"
+            className="h-full  w-full object-top object-cover rounded-t-lg"
             src={post.featuredImage.url}
             alt={post.title}
             layout="responsive"
-            width={1}
-            height={1}
+            width="100%"
+            height="100%"
           />
         </div>
         <div className="px-4 lg:px-0">

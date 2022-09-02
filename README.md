@@ -2,7 +2,7 @@
 
 > CMS blog post
 
-[Live Demo]()
+[Live Demo](https://dev-daily-seven.vercel.app/)
 
 ## Built With
 
